@@ -1,4 +1,4 @@
-# Port-Scanner
+# Port-Scanner 
 
 >pkg install python
 
@@ -6,4 +6,4 @@
 
 >cd Port-Scanner
 
->python portscanner.py
+>python Portscanner.py
