@@ -2,25 +2,25 @@ import socket # for connecting
 from colorama import init, Fore
 
 print("""\x1b[38;2;255;20;36m
-╔═══╦═══╦╗─╔╗
-║╔══╣╔═╗║║─║║
-║╚══╣║─╚╣╚═╝║
-║╔══╣║─╔╣╔═╗║
-║║──║╚═╝║║─║║
-╚╝──╚═══╩╝─╚╝
-
-===============================
-Coded By: Mr.NightMare
-Fb Page: Filipino Cyber Hacktivist
-         BlackDragons Cyber Squad
-
-
-
-
-
-
-
-""")
+                   ╔═══╦═══╦╗─╔╗         
+                   ║╔══╣╔═╗║║─║║         
+                   ║╚══╣║─╚╣╚═╝║     
+                   ║╔══╣║─╔╣╔═╗║     
+                   ║║──║╚═╝║║─║║      
+                   ╚╝──╚═══╩╝─╚╝    
+         ╔══════════════════════════════╗       
+         ║Script Name: Port Scanner          ║
+         ║Coded By:Mr.NightMare              ║
+         ║FB Page:Fililino Cyber Hacktivist  ║
+         ║Gmail:nightmarexfch@gmail.com      ║
+         ║Warning:This script is private,    ║
+         ║only Philippines Cyber Alliance    ║
+         ║can use this script                ║    
+         ║                                   ║
+         ║                                   ║
+         ║                                   ║
+         ╚══════════════════════════════╝                
+          """)
 
 # some colors
 init()
@@ -48,7 +48,10 @@ def is_port_open(host, port):
         return True
         
 # get the host from the user
-host = input("Enter Host: ")
+
+
+host = input("""         ┌──(root@portscanner)-[~]
+         └─Enter Host: """)
 # iterate over ports, from 1 to 1024
 for port in range(1, 1025):
     if is_port_open(host, port):
